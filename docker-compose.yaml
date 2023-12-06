@@ -1,0 +1,11 @@
+version: '3.7'
+
+services:
+  shadowsocks:
+    image: ghcr.io/shadowsocks/sslocal-rust:latest
+    ports:
+      - '0.0.0.0:1080:1080/tcp'
+      - '0.0.0.0:1080:1080/udp'
+    volumes:
+      - './config.json:/etc/shadowsocks-rust/config.json'
+  

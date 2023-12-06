@@ -1,0 +1,9 @@
+{
+    "server": "159.89.102.55",
+    "server_port": 8388,
+    "local_port": 1080,
+    "password": "password",
+    "local_address": "0.0.0.0",
+    "timeout": 600,
+    "method": "aes-256-gcm"
+}
